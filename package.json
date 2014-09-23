@@ -31,7 +31,9 @@
   },
   "config.plugin": {
     "io.pinf.server.firewidgets": {
-      "widgets": "./widgets/*"
+      "widgets": {
+        "terminals": "./widgets/terminals/*"
+      }
     }
   }
 }
